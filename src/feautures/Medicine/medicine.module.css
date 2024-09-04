@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+
+* {
+  -webkit-font-smoothing: antialiased;
+  color: #157846;
+}
+
+:root {
+  --border-radius: 10px;
+}
+
+body, html {
+  background: #b8d9bc;
+  display: grid;
+  height: 100%;
+  grid-template: 1fr/100%;
+  place-items: center;
+}
+
+.Card {
+    margin-bottom: 20px;
+}
+
+.CardInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Icon {
+  min-width: 46px;
+  min-height: 46px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  border-radius: var(--border-radius);
+  margin-right: 12px;
+  box-shadow: 
+    -2px -2px 6px rgba(#fff, .6),
+    2px 2px 12px #7ccb87;
+    
+  svg {
+    transform: translate(-1px, -1px);  
+  }
+}
+
+label {
+  font-family: sans-serif;
+  display: block;
+  color: #3c6649;
+  margin-bottom: 12px;
+  background: linear-gradient(45deg, rgba(#3abf50, 1), #3c663d);
+  -webkit-text-fill-color: transparent;
+}
+
+.InputContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+input {
+  background-color: #39e776;
+  padding: 16px 32px;
+  border: none;
+  display: block;
+  font-family:  sans-serif;
+  font-weight: 600;
+  transition: all 240ms ease-out;
+  width: 100%;
+  
+  &::placeholder {
+    color: #067721;
+  }
+  
+  &:focus {
+    outline: none;
+    color: #327338;
+  }
+};
+  
+.InputContainer {
+  --top-shadow: inset 1px 1px 3px #06a448, inset 2px 2px 6px #051626;
+  
+  position: relative;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  
+  &:before,
+  &:after {
+    left: 0;
+    top: 0;
+    display: block;
+    content: "";
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  &:before {
+    box-shadow: var(--bottom-shadow);
+  }
+  
+  &:after {
+    box-shadow: var(--top-shadow);
+  }
+}
+

@@ -1,0 +1,48 @@
+{
+    "medicines":
+    [
+        {
+            "id": 101,
+            "name": "vitamin A",
+            "price": 500,
+            "rating": 5,
+            "photo": "https://m.media-amazon.com/images/I/511ijsPtftL.jpg"
+        },
+        {
+            "id": 102,
+            "name": "vitamin B",
+            "price": 600,
+            "rating": 3,
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStVkB7f4cblP75RI5F-D0BaSMdILOJcB3AHQ&s"
+        },
+        {
+            "id": 103,
+            "name": "vitamin C",
+            "price": 900,
+            "rating": 0,
+            "photo": "https://www.nutrifactor.com.pk/cdn/shop/files/NUTRA-C60.png?v=1716383953"
+        },
+        {
+            "id": 104,
+            "name": "vitamin D",
+            "price": 400,
+            "rating": 2,
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7J0BFBUyk-ygm9Bxv1LfVA5emtLUcE9z-3A&s"
+        },
+        {
+            "id": 105,
+            "name": "Nurofen",
+            "price": 1000,
+            "rating": 5,
+            "photo": "https://eeab0c26-8615-46dc-943f-eb73c30455b0.selstorage.ru/resized/b955fb56-eb1c-44cd-869e-f36b2ed1a71a.png"
+        },
+        {
+            "id": 106,
+            "name": "Analgin",
+            "price": 200,
+            "rating": 1,
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPf_3_92peWM-x2qCc6W8APXpyENzjWUdgig&s"
+        }
+    ]
+    
+}
